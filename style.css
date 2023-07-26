@@ -1,0 +1,27 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    a:hover{ 
+        background-color: rgb(255, 255, 255) !important;
+    }
+    strong{
+        color: #F0DB4F;
+    }
+   
+    span:hover{
+        color: #AEB2D5;
+    }
+    span{
+        border: 1px solid #22D4FD;
+        padding: 1px 5px;
+    }
+    h1{
+        font-weight: bold;
+        
+}
+
