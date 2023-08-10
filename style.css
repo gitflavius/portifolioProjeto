@@ -23,5 +23,11 @@
     h1{
         font-weight: bold;
         
-}
+    }
+    .apresentacao{
+        margin: 9%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
