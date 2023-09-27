@@ -81,6 +81,15 @@
         line-height: 36px;
         gap: 40px;
     }
+    .apresentacao__conteudo__texto__especial{
+        color: #F6F6F6 !important;
+        font-family: 'Montserrat';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        gap: 40px;
+    }
 
     .apresentacao__conteudo__texto a{
     
@@ -105,8 +114,11 @@
         font-size: 24px;
 
     }
-    
-    .apresentacao__links_link{
+    .sobremim{
+        padding: 15%;
+        display: inline-block;
+    }
+        .apresentacao__links_link{
         border: 2px solid #22D4FD;
         width: 378px;
         justify-content: center;
@@ -137,5 +149,5 @@
     }
     .perfcurriculo{
         padding: 98px 90px 95px 96px;
-        border-radius: 548px;
+        border-radius: 458px  690px;
     }
