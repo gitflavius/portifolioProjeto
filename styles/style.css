@@ -52,13 +52,20 @@
         text-decoration: none;
 
     }
-
-    .apresentacao{
-        margin: 9% 16%;
+    .conteudo__about{
         display: flex;
         align-items: center;
         justify-content: space-between;
-            
+        gap:82px;
+
+    }
+
+    .apresentacao{
+        padding: 9% 16%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:82px;            
     }
     .apresentacao__conteudo{
         width: 635px;
@@ -157,6 +164,25 @@
         font-weight: 400;
     }
     .perfcurriculo{
-        padding: 98px 90px 95px 96px;
         border-radius: 458px  690px;
+    }
+    @media (max-width: 1200px){
+        .cabecalho{
+            padding: 10%;
+            gap: 40px;
+        } 
+        .cabecalho_menu{
+            justify-content: center;
+        }                  
+        .apresentacao{
+            flex-direction: column-reverse;
+        }
+        .apresentacao__conteudo {
+            flex-direction: column-reverse;
+        }
+        .conteudo__about{
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        
     }
