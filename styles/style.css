@@ -43,6 +43,7 @@
     .cabecalho_menu{
         display: flex;
         gap: 80px;
+        justify-content: space-around;
     }
     .cabecalho__menu__link{
         font-family: var(--font-secundaria);
@@ -184,5 +185,14 @@
             flex-direction: column-reverse;
             justify-content: center;
         }
-        
     }
+    @media(max-width: 425px) and (min-width: 320px)
+    {       
+        .apresentacao{
+            gap: 15px;
+        }
+    }
+
+    
+        
+    
