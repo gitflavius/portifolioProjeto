@@ -116,16 +116,7 @@
         font-style: italic;
     }
 
-    .apresentacao__conteudo__texto:hover{
-        padding: 15%;
-        font-weight: 600;
-        font-size: 1.688rem;
-        color:var(--cor-primaria);
-        background-color:var(--cor-terciaria);
-        border-radius: 10px 100px;
-        transition-duration: 2s;
-    }
-
+  
     .apresentacao__links_subtitulo{
         font-family: var(--fonte-primaria);
         font-weight: 400;
@@ -165,12 +156,16 @@
         font-weight: 400;
     }
     .perfcurriculo{
-        border-radius: 458px  690px;
+        border-radius: 643px 690px;
+        width: 43%;
+        margin-block: -5% 28%;
+        margin-right: -101px;
     }
     @media (max-width: 1200px){
         .cabecalho{
-            padding: 10%;
+            padding: 20%;
             gap: 40px;
+            display: flex;
         } 
         .cabecalho_menu{
             justify-content: center;
@@ -179,19 +174,50 @@
             flex-direction: column-reverse;
         }
         .apresentacao__conteudo {
-            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            width: 83%;
         }
         .conteudo__about{
             flex-direction: column-reverse;
             justify-content: center;
         }
+        .apresentacao__conteudo__titulo{
+            height: 71px;
+        }
+        .perfcurriculo{
+            width: 40%;
+            border-radius: 643px 690px;
+            margin-block: -5% 28%;
+            margin-right: -101px;
+        }
+        
     }
     @media(max-width: 425px) and (min-width: 320px)
     {       
         .apresentacao{
             gap: 15px;
         }
-    }
+        .apresentacao__conteudo {
+            flex-wrap: wrap;
+            width: 83%;
+        }
+        .rodape{
+            padding: 24px;
+            color: var(--cor-primaria);
+            background-color: var(--cor-terciaria);
+            text-align: center;
+            font-family: var(--font-secundaria);
+            font-size: 1.5rem;
+            font-weight: 400;
+            }
+        .perfcurriculo{
+            width: 40%;
+            border-radius: 643px 690px;
+            margin-block: -5% 28%;
+            margin-right: -101px;
+        }
+    
+}
 
     
         
