@@ -172,10 +172,12 @@
         }                  
         .apresentacao{
             flex-direction: column-reverse;
+            width: auto;
+
         }
         .apresentacao__conteudo {
             flex-wrap: wrap;
-            width: 83%;
+            gap: inherit;
         }
         .conteudo__about{
             flex-direction: column-reverse;
